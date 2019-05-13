@@ -32,6 +32,14 @@
       .append("g")
         .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
         
+      var formatNumber = d3.format(",d");
+
+      var x = d3.scaleLinear()
+                .range([0, 2 * Math.PI]);
+
+      var y = d3.scaleSqrt()
+                 .range([0, radius]);
+      
       var partition = d3.partition();
 
       var arc = d3.arc()
@@ -42,7 +50,7 @@
         
        
        
-        d3.csv("data/SampleData.csv", function(error, data) {
+      d3.csv("data/SampleData.csv", function(error, data) {
           
           function genJSON(csvData, groups) {
 
@@ -78,7 +86,7 @@
        
        
          var path = svg.datum(preppedData).selectAll("path")
-          .data(partition("path").descendants())
+          .data(partition("path")
         .enter().append("path")
           .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
           .attr("d", arc)
