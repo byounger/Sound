@@ -85,8 +85,8 @@
        var preppedData = genJSON(data, ['How do you self identify?', 'What is your ethnicity?', 'Where do you live?', 'What is your favorite activity at the festival?'])
        
        
-         var path = svg.datum(preppedData).selectAll("path")
-          .data(partition("path")
+       var path = svg.datum(preppedData).selectAll("path")
+          .data(partition.nodes)
         .enter().append("path")
           .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
           .attr("d", arc)
@@ -94,7 +94,8 @@
           .style("stroke", "#fff")
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
           .style("fill-rule", "evenodd")
-         });
+
+      });
       
       </script>
   </body>
