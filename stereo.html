@@ -8,36 +8,6 @@ path {
 <body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
-      $(function(){
-      var sheetUrl = 'https://spreadsheets.google.com/feeds/cells/1K4VN1BrF30nWMdtweUg839B7ows2167ARdu7VkHlYtI/2/od6/public/values?alt=json';
-         $.getJSON(sheetUrl, function(data){
-            var entry = data.feed.entry;
-            var Gender = []; // the leftmost column of the Google Sheets
-            var Race = []; // second-left column
-            var States = []; // third-left column
-            var Reasons = []; // last column
-            var Inspirations = [];
-            var Selfie = [];
-            var FirstName = [];
-            var LastName = [];
-            var EmailAddress = [];
-            var Timestamp = [];
-            for (var i = 3; i < entry.length; i += 4){
-              // entry[i].content.$t retrieves the content of each cell
-              Gender.push(entry[i].content.$t);
-              Race.push(entry[i+1].content.$t);
-              States.push(entry[i+2].content.$t);
-              Reasons.push(entry[i+3].content.$t);
-            }
-
-        console.log(Gender);
-        console.log(Race);
-        console.log(States);
-        console.log(Reasons);
-      })
-      });
-</script>
-<script>
 
       var width = 960,
           height = 700,
