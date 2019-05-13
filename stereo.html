@@ -3,11 +3,11 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
-     <!----Javascript for Sunburst/Stereo Visual---->
+   
      <scrip src="https://underscorejs.org/underscore-min.js"></script>
      <script src="https://d3js.org/d3.v5.min.js"></script>
      
-     <!----Style Sheet for page---->
+
        <link href="css/custom.css" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Khand|Special+Elite" rel="stylesheet">
      
@@ -35,7 +35,7 @@
         .innerRadius(function(d) { return Math.sqrt(d.y); })
         .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
         
-       <!----data set-up----> 
+       
        
         d3.csv("data/SampleData.csv", function(error, data) {
 
@@ -43,7 +43,7 @@
             element.pop = +element.pop;
         });
         
-        <!---- changing the csv to json data--->
+    
         function genJSON(csvData, groups) {
 
           var genGroups = function(data) {
@@ -73,7 +73,7 @@
           };
           return nest({}, 0);
         }
-       <!---- call for data----->
+  
        var preppedData = genJSON(data, ['How do you self identify?', 'What is your ethnicity?', 'Where do you live?', 'What is your favorite activity at the festival?'])
        
        
