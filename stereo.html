@@ -38,7 +38,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
 
-d3.json("https://gist.githubusercontent.com/mbostock/4348373/raw/85f18ac90409caa5529b32156aa6e71cf985263f/flare.json", function(error, root) {
+d3.json("https://cors.io/docs.google.com/spreadsheets/d/e/2PACX-1vTW7BXRyI3EChhqUhke1y2TO1Z90bID3FfPWgZb3hF9-zbnfxlkphqQNvjxiOnAgdYkk-itMqvjrIvo/pub?gid=957248393&single=true&output=csv/values?alt=json-in-script&callback=", function(error, root) {
   if (error) throw error;
   
   root = d3.hierarchy(root);
