@@ -10,12 +10,12 @@ var b = {
 
 // Mapping of step names to colors.
 var colors = {
-  "home": "#5687d1",
-  "product": "#7b615c",
-  "search": "#de783b",
-  "account": "#6ab975",
-  "other": "#a173d1",
-  "end": "#bbbbbb"
+  "gender": "#5687d1",
+  "race": "#7b615c",
+  "states": "#de783b",
+  "reasons": "#6ab975",
+  "inspirations": "#a173d1",
+  "selfie": "#bbbbbb"
 };
 
 // Total size of all segments; we set this later, after loading the data.
@@ -39,7 +39,7 @@ var arc = d3.arc()
 
 // Use d3.text and d3.csvParseRows so that we do not need to have a header
 // row, and can receive the csv as an array of arrays.
-d3.text("visit-sequences.csv", function(text) {
+d3.text("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(text) {
   var csv = d3.csvParseRows(text);
   var json = buildHierarchy(csv);
   createVisualization(json);
@@ -61,7 +61,7 @@ function createVisualization(json) {
 
   // Turn the data into a d3 hierarchy and calculate the sums.
   var root = d3.hierarchy(json)
-      .sum(function(d) { return d.size; })
+      .sum(function(d) { return d.count; })
       .sort(function(a, b) { return b.value - a.value; });
   
   // For efficiency, filter nodes to keep only those large enough to see.
