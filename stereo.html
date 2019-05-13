@@ -78,7 +78,7 @@
        
        
        var path = svg.datum(preppedData).selectAll("path")
-          .data(partition.nodes)
+          .data(partition(root).descendants())
         .enter().append("path")
           .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
           .attr("d", arc)
