@@ -54,17 +54,17 @@
 
         var nest = function(node, curIndex) {
             if (curIndex === 0) {
-            node.children = genGroups(groupBy(csvData, groups[0]));
-            each(node.children, function (child) {
+            node.children = genGroups(.groupBy(csvData, groups[0]));
+            .each(node.children, function (child) {
             nest(child, curIndex + 1);
             });
           }
             else {
             if (curIndex < groups.length) {
             node.children = genGroups(
-            groupBy(node.children, groups[curIndex])
+            .groupBy(node.children, groups[curIndex])
             );
-            each(node.children, function (child) {
+            .each(node.children, function (child) {
             nest(child, curIndex + 1);
             });
           }
