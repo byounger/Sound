@@ -16,7 +16,7 @@
     <script>
       var width = 1000, height = 1000, radius = 600;
       
-      var color = d3.scale.ordinal().range(['#74E600','#26527C','#61D7A4','#6CAC2B','#408AD2','#218359','#36D792','#679ED2','#B0F26D','#4B9500','#98F23D','#04396C','#007241']);
+      var color = d3.scale.category20();
       
       var svg = d3.select("body").append("svg")
         .attr("width", width)
