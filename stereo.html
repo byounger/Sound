@@ -58,7 +58,7 @@
         .outerRadius(function(d) { return Math.max(0, y(d.y1)); });
       
       
-      d3.json("https://docs.google.com/spreadsheets/d/1OznIbVIhOUGUA-QntwjnuvrfEgkQrVYL2EmNOyY4v7o/edit?usp=sharing/values?alt=json-in-script&callback=, function(error, root) {
+      d3.json("https://docs.google.com/spreadsheets/d/1OznIbVIhOUGUA-QntwjnuvrfEgkQrVYL2EmNOyY4v7o/edit?usp=sharing/values?alt=json-in-script&callback=", function(error, root) {
             if (error) throw error;
 
             root = d3.hierarchy(root);
