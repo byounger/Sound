@@ -77,16 +77,15 @@
        var preppedData = genJSON(data, ['How do you self identify?', 'What is your ethnicity?', 'Where do you live?', 'What is your favorite activity at the festival?'])
        
        
-        root = d3.hierarchy(root);
-          root.sum(function(d) { return d.size; });
-          svg.selectAll("path")
-              .data(partition(root).descendants())
-              .enter().append("path")
-              .attr("d", arc)
-              .style("fill", function(d) { return color((d.children ? d : d.parent).data.name); })
-              .on("click", click)
-              .append("title")
-              .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
+         var path = svg.datum(preppedData).selectAll("path")
+          .data(partition("path").descendants())
+        .enter().append("path")
+          .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
+          .attr("d", arc)
+          .attr("class", function(d) { return (d.children ? d : d.parent).name; })
+          .style("stroke", "#fff")
+          .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+          .style("fill-rule", "evenodd")
          
        
       function click(d) {
