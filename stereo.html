@@ -26,7 +26,9 @@
   </head>
   <body>
     <script>
-      var width = 1000, height = 1000, radius = 600;
+     var width = 960,
+         height = 700,
+         radius = (Math.min(width, height) / 2) - 10;
       
       var colors = d3.schemeCategory10;
       
