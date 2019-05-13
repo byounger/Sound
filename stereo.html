@@ -68,7 +68,7 @@ path {
         .append("g")
           .attr("transform", "translate(" + width / 2 + "," + (height / 2) + ")");
 
-      d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTW7BXRyI3EChhqUhke1y2TO1Z90bID3FfPWgZb3hF9-zbnfxlkphqQNvjxiOnAgdYkk-itMqvjrIvo/pub?gid=957248393&single=true&output=csv", function(error, root) {
+      d3.json("https://spreadsheets.google.com/feeds/cells/1K4VN1BrF30nWMdtweUg839B7ows2167ARdu7VkHlYtI/2/od6/public/values?alt=json", function(error, root) {
         if (error) throw error;
 
         root = d3.hierarchy(root);
