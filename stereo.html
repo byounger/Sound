@@ -4,7 +4,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
    
-      <script type="text/javascript" src="js/underscore-min.js"></script>
+     <script type="text/javascript" src="js/underscore-min.js"></script>
      <script src="https://d3js.org/d3.v5.min.js"></script>
      <script src="https://d3js.org/d3-array.v2.min.js"></script>
      <script src="https://d3js.org/d3-array.v2.min.js"></script>
@@ -93,9 +93,7 @@
           .attr("class", function(d) { return (d.children ? d : d.parent).name; })
           .style("stroke", "#fff")
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-          .style("fill-rule", "evenodd"))
-
-      });
+          .style("fill-rule", "evenodd")});
       
       </script>
   </body>
