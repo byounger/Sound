@@ -43,41 +43,36 @@
        
        
         d3.csv("data/SampleData.csv", function(error, data) {
+          
+          function genJSON(csvData, groups) {
 
-        _.each(data, function(element, index, list){
-            element.pop = +element.pop;
-        });
-        
-    
-        function genJSON(csvData, groups) {
-
-          var genGroups = function(data) {
+            var genGroups = function(data) {
             return _.map(data, function(element, index) {
-              return { name : index, children : element };
+            return { name : index, children : element };
             });
           };
 
-          var nest = function(node, curIndex) {
+        var nest = function(node, curIndex) {
             if (curIndex === 0) {
-              node.children = genGroups(_.groupBy(csvData, groups[0]));
-              _.each(node.children, function (child) {
-                nest(child, curIndex + 1);
-              });
-            }
+            node.children = genGroups(_.groupBy(csvData, groups[0]));
+            _.each(node.children, function (child) {
+            nest(child, curIndex + 1);
+            });
+          }
             else {
-              if (curIndex < groups.length) {
-                node.children = genGroups(
-                  _.groupBy(node.children, groups[curIndex])
-                );
-                _.each(node.children, function (child) {
-                  nest(child, curIndex + 1);
-                });
-              }
-            }
-            return node;
-          };
-          return nest({}, 0);
+            if (curIndex < groups.length) {
+            node.children = genGroups(
+            _.groupBy(node.children, groups[curIndex])
+            );
+            _.each(node.children, function (child) {
+            nest(child, curIndex + 1);
+            });
+          }
         }
+        return node;
+      };
+      return nest({}, 0);
+     }
   
        var preppedData = genJSON(data, ['How do you self identify?', 'What is your ethnicity?', 'Where do you live?', 'What is your favorite activity at the festival?'])
        
