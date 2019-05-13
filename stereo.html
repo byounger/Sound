@@ -86,7 +86,10 @@
           .style("stroke", "#fff")
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
           .style("fill-rule", "evenodd")
-         
+          .on("click", click)
+          .append("title")
+          .text(function(d) { return d.data.name + "\n" + formatNumber(d.value); });
+         });
        
       function click(d) {
          svg.transition()
