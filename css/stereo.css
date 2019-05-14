@@ -23,11 +23,21 @@ body {
   height: 70px;
 }
 
+#bar {
+  width: 600px;
+  height: 70px;
+}
+
 #legend {
   padding: 10px 0 0 3px;
 }
 
 #sequence text, #legend text {
+  font-weight: 600;
+  fill: #fff;
+}
+
+#bar text, #legend text {
   font-weight: 600;
   fill: #fff;
 }
