@@ -1,4 +1,7 @@
-        //set up svg using margin conventions - we'll need plenty of room on the left for labels
+        
+
+
+//set up svg using margin conventions - we'll need plenty of room on the left for labels
         var margin = {
             top: 15,
             right: 25,
@@ -15,16 +18,20 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        var x = d3.scalelinear()
+        
+d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(d) {
+          return d3.ascending({ Timestamp: d.timestamp, Age: d.age});
+
+	var x = d3.scalelinear()
             .range([0, width])
             .domain([0, d3.max(data, function (d) {
-                return d.value;
+                return d.age;
             })]);
 
         var y = d3.scaleOrdinal()
             .rangeRoundBands([height, 0], .1)
             .domain(data.map(function (d) {
-                return d.name;
+                return d.timestamp;
             }));
 
         //make y axis to show bar names
@@ -42,13 +49,6 @@
             .data(data)
             .enter()
             .append("g");
-    
-        d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(d) {
-          return d3.ascending({
-    Timestamp: d.timestamp, Age: d.age,
-     };
-        }, function(error, rows) {
-	        d3.select("#bar")
     
         //append rects
         bars.append("rect")
