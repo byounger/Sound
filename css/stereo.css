@@ -26,6 +26,7 @@ body {
 #bar {
   width: 600px;
   height: 70px;
+  fill: #5f89ad;
 }
 
 #legend {
