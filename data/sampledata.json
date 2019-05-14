@@ -1,0 +1,554 @@
+[
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Alabama",
+        "reasons": "Music",
+        "inspirations": "Statement Example 0",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa6",
+        "firstname": "John",
+        "lastname": "Doe",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Alaska",
+        "reasons": "Music",
+        "inspirations": "Statement Example 1",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa7",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "American Samoa",
+        "reasons": "Music",
+        "inspirations": "Statement Example 2",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa8",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Arizona",
+        "reasons": "Music",
+        "inspirations": "Statement Example 3",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa9",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Arkansas",
+        "reasons": "Music",
+        "inspirations": "Statement Example 4",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa10",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "California",
+        "reasons": "Music",
+        "inspirations": "Statement Example 5",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa11",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Colorado",
+        "reasons": "Music",
+        "inspirations": "Statement Example 6",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa12",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Connecticut",
+        "reasons": "Music",
+        "inspirations": "Statement Example 7",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa13",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "American Indian or Alaska Native",
+        "states": "Delaware",
+        "reasons": "Music",
+        "inspirations": "Statement Example 8",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa14",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Florida",
+        "reasons": "Food",
+        "inspirations": "Statement Example 9",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa15",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Georgia",
+        "reasons": "Food",
+        "inspirations": "Statement Example 10",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa16",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Guam",
+        "reasons": "Food",
+        "inspirations": "Statement Example 11",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa17",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Hawaii",
+        "reasons": "Food",
+        "inspirations": "Statement Example 12",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa18",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Idaho",
+        "reasons": "Food",
+        "inspirations": "Statement Example 13",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa19",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Illinois",
+        "reasons": "People",
+        "inspirations": "Statement Example 14",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa20",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Asian",
+        "states": "Iowa",
+        "reasons": "People",
+        "inspirations": "Statement Example 15",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa21",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Kansas",
+        "reasons": "People",
+        "inspirations": "Statement Example 16",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa22",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Kentucky",
+        "reasons": "People",
+        "inspirations": "Statement Example 17",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa23",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Louisiana",
+        "reasons": "People",
+        "inspirations": "Statement Example 18",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa24",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Maine",
+        "reasons": "People",
+        "inspirations": "Statement Example 19",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa25",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Maryland",
+        "reasons": "People",
+        "inspirations": "Statement Example 20",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa26",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Massachusetts",
+        "reasons": "People",
+        "inspirations": "Statement Example 21",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa27",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Michigan",
+        "reasons": "Location",
+        "inspirations": "Statement Example 22",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa28",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Minnesota",
+        "reasons": "Location",
+        "inspirations": "Statement Example 23",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa29",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Mississippi",
+        "reasons": "Location",
+        "inspirations": "Statement Example 24",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa30",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Missouri",
+        "reasons": "Location",
+        "inspirations": "Statement Example 25",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa31",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Montana",
+        "reasons": "Location",
+        "inspirations": "Statement Example 26",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa32",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Nevada",
+        "reasons": "Location",
+        "inspirations": "Statement Example 27",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa33",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "New Hampshire",
+        "reasons": "Location",
+        "inspirations": "Statement Example 28",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa34",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "New Jersey",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 29",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa35",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "New Mexico",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 30",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa36",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "New York",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 31",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa37",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "North Carolina",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 32",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa38",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "North Dakota",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 33",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa39",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Northern Mariana Islands",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 34",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa40",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Ohio",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 35",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa41",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Black or African American",
+        "states": "Oklahoma",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 36",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa42",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "Oregon",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 37",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa43",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "White",
+        "states": "Pennsylvania",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 38",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa44",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "Puerto Rico",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 39",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa45",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "South Carolina",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 40",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa46",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "South Dakota",
+        "reasons": "Artists",
+        "inspirations": "Statement Example 41",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa47",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "Tennessee",
+        "reasons": "Music",
+        "inspirations": "Statement Example 42",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa48",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "Texas",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 43",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa49",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "White",
+        "states": "Utah",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 44",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa50",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Vermont",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 45",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa51",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Virgin Islands",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 46",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa52",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Virginia",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 47",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa53",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Washington",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 48",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa54",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "West Virginia",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 49",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa55",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Wisconsin",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 50",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa56",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Man",
+        "race": "Native Hawaiian or Other Pacific Islander",
+        "states": "Wyoming",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 51",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa57",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Hispanic or Latino",
+        "states": "Rhode Island",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 52",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa58",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Hispanic or Latino",
+        "states": "Indiana",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 53",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa59",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    },
+    {
+        "gender": "Woman",
+        "race": "Hispanic or Latino",
+        "states": "Nebraska",
+        "reasons": "Fashion",
+        "inspirations": "Statement Example 54",
+        "selfie": "https://drive.google.com/open?id=1yTgrT3dKBoVAFH_ECdiSP8uMVEtEgMa60",
+        "emailaddress": "XXX@gmail.com",
+        "timestamp": "2019-05-10T06:54:42.168Z"
+    }
+]
