@@ -18,7 +18,7 @@
         var vLayout = d3.partition().size([2 * Math.PI, Math.min(vWidth, vHeight) / 2]);
 
         // Layout + Data
-        var vRoot = d3.hierarchy(vData).sum(function (d) { return d.data.size; });
+        var vRoot = d3.hierarchy(vData).sum(function (d) { return d.count; });
         var vNodes = vRoot.descendants();
         vLayout(vRoot);
         var vArc = d3.arc()
