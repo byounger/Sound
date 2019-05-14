@@ -19,7 +19,7 @@
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         
-d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(d) {
+d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(a, b) {
           return d3.ascending({ Timestamp: a.value, Age: b.value});
 	
 	var timestamp = a.value;
