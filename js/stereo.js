@@ -31,7 +31,7 @@ d3.json("data/sampledata.json", function(error, root) {
   if (error) throw error;
   
   root = d3.hierarchy(root);
-  root.sum(function(d) { return d.count; });
+  root.sum(function(d) { return d.data.age; });
   svg.selectAll("path")
       .data(partition(root).descendants())
     .enter().append("path")
