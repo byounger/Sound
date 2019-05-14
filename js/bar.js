@@ -72,6 +72,4 @@
             .text(function (d) {
                 return d.age;
             });
-            
-         
-        
+          });  
