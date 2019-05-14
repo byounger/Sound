@@ -44,12 +44,8 @@
             .append("g");
     
         d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vRTE7B0FZzGglZwflximEKoDerxoJdfVmwdXyhLY_fWEbam0nmrLFz1qZTF4UvjsTio9GjhoyY9-Cf-/pub?gid=957248393&single=true&output=csv", function(d) {
-          return d3.ascending({
-            Timestamp : d.timestamp,
-            Age : d.age,
-          });
+          return d3.ascending(a.value, b.value);
     
- 
         //append rects
         bars.append("rect")
             .attr("class", "bar")
