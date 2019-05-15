@@ -12,7 +12,7 @@
         var width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-        var svg = d3.select("#graphic").append("svg")
+        var svg = d3.select("#bar").append("svg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
