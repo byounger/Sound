@@ -8,8 +8,8 @@
     var parseDate = d3.time.format("%Y-%m-%d %X").parse; //27-May-12 16:00:00. This is used for D3JS parsing
  
     // Set the ranges
-    var x = d3.time.scale().range([height, 0]);
-    var y = d3.scale.ordinal.utc().range([0, width]);
+    var x = d3.time.scale.utc().range([height, 0]);
+    var y = d3.scale.ordinal().range([0, width]);
 
     // Define the axes
     var xAxis = d3.svg.axis().scale(x)
