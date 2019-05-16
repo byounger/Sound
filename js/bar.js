@@ -8,8 +8,9 @@
     var parseDate = d3.time.format("%Y-%m-%d %X").parse; //27-May-12 16:00:00. This is used for D3JS parsing
  
     // Set the ranges
+    var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);    
     var y = d3.time.scale.utc().range([height, 0]);
-    var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+  
 
     // Define the axes
     var xAxis = d3.svg.axis()
@@ -38,7 +39,7 @@
         });
 
         // Scale the range of the data
-        x.domain(d3.extent(data, function(d) { return d.FirstName; }));
+        x.domain(data.map(function(d) { return d.FirstName; }));
         y.domain([0, d3.max(data, function(d) { return d.TimeStamp; })]);
 	
 	// Append SVG and Bars
