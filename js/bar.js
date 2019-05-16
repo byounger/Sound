@@ -13,7 +13,7 @@
 	var formatTime = d3.time.format("%Y-%m-%d %X");
 
 	var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
-	var y = d3.time.scale().range([height, 0]);
+	var y = d3.time.scale.utc().range([height, 0]);
         
 	var xAxis = d3.svg.axis()
     	    .scale(x)
@@ -32,7 +32,7 @@
 
 	d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
             data.forEach(function(d) {
-		d.Timestamp = parseTimestamp(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
+		d.Timestamp = parseTimestamp(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
 		d.FirstName = +d.FirstName;
 	    });
 	
