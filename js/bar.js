@@ -8,26 +8,18 @@
     var parseDate = d3.time.format("%Y-%m-%d %X").parse; //27-May-12 16:00:00. This is used for D3JS parsing
  
     // Set the ranges
-    var x = d3.time.scale.utc().range([height, 0]);
-    var y = d3.scale.ordinal().range([0, width]);
+    var y = d3.time.scale.utc().range([height, 0]);
+    var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
 
     // Define the axes
-    var xAxis = d3.svg.axis().scale(x)
-        .orient("bottom").ticks(5);
+    var xAxis = d3.svg.axis()
+   	 .scale(x)
+    	 .orient("bottom");
 
-    var yAxis = d3.svg.axis().scale(y)
-        .orient("left").ticks(5);
-
-    // Define the line
-    var valueline = d3.svg.line()
-        .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.close); });
-
-    // Define 'div' for tooltips
-    var div = d3.select("body")
-        .append("div")  // declare the tooltip div
-        .attr("class", "tooltip")
-        .style("opacity", 0);
+    var yAxis = d3.svg.axis()
+    	.scale(y)
+    	.orient("left")
+    	.ticks(10);
 
     // Adds the svg canvas
     var svg = d3.select("body")
