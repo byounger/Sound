@@ -9,11 +9,11 @@
         var width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-	var parseDate = d3.time.format("%Y-%m-%d %X").parse;
+	var parseTimestamp = d3.time.format("%Y-%m-%d %X").parse;
 	var formatTime = d3.time.format("%Y-%m-%d %X");
 
 	var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
-	var y = d3.time.scale.utc().range([height, 0]);
+	var y = d3.time.scale().range([height, 0]);
         
 	var xAxis = d3.svg.axis()
     	    .scale(x)
@@ -22,7 +22,7 @@
 	var yAxis = d3.svg.axis()
 	    .scale(y)
 	    .orient("left")
-	    .ticks(10);
+	    .ticks(24);
 
 	var svg = d3.select("#bar").append("svg")
             .attr("width", width + margin.left + margin.right)
@@ -32,12 +32,12 @@
 
 	d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
             data.forEach(function(d) {
-		d.Timestamp = parseDate(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
-		d.FirstName = d.FirstName;
+		d.Timestamp = parseTimestamp(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
+		d.FirstName = +d.FirstName;
 	    });
 	
 	x.domain(data.map(function(d) { return d.FirstName; }));
-  	y.domain([0, d3.max(data, function(d) { return d.Timestamp; })]);
+  	y.domain(d3.extent(data, function(d) { return d.Timestamp; }));
 		
 	 svg.append("g")
 	      .attr("class", "x axis")
