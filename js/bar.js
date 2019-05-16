@@ -23,7 +23,7 @@
     	.ticks(10);
 
     // Adds the svg canvas
-    var svg = d3.select("#bars")
+    var svg = d3.select("#bar")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
