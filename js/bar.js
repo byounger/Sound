@@ -9,8 +9,10 @@
         var width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-	var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
+	var parseDate = d3.time.format("%Y-%m-%d %X").parse;
+	var formatTime = d3.time.format("%Y-%m-%d %X");
 
+	var x = d3.scale.ordinal().rangeRoundBands([0, width], .05);
 	var y = d3.time.scale.utc().range([height, 0]);
         
 	var xAxis = d3.svg.axis()
@@ -30,7 +32,7 @@
 
 	d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
             data.forEach(function(d) {
-		d.Timestamp = +d.Timestamp;
+		d.Timestamp = parseDate(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
 		d.FirstName = d.FirstName;
 	    });
 	
