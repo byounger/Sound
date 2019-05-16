@@ -40,7 +40,8 @@
         // Scale the range of the data
         x.domain(d3.extent(data, function(d) { return d.FirstName; }));
         y.domain([0, d3.max(data, function(d) { return d.TimeStamp; })]);
-		
+	
+	// Append SVG and Bars
 	 svg.append("g")
 	      .attr("class", "x axis")
 	      .attr("transform", "translate(0," + height + ")")
