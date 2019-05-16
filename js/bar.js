@@ -9,9 +9,9 @@
         var width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
-	var x = d3.ordinal().rangeRoundBands([0, width], .05);
+	var x = d3.scaleOrdinal().rangeRoundBands([0, width], .05);
 
-	var y = d3.linear().range([height, 0]);
+	var y = d3.scaleLinear().range([height, 0]);
         
 	var xAxis = d3.svg.axis()
     	    .scale(x)
