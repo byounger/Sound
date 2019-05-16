@@ -9,7 +9,7 @@
  
     // Set the ranges
     var x = d3.time.scale().range([height, 0]);
-    var y = d3.scale.ordinal().range([0, width]);
+    var y = d3.scale.ordinal.utc().range([0, width]);
 
     // Define the axes
     var xAxis = d3.svg.axis().scale(x)
@@ -41,7 +41,7 @@
     // Get the data
     d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
         data.forEach(function(d) {
-            d.Timestamp = parseDate(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
+            d.Timestamp = parseDate(d.Timestamp);
             d.FirstName = +d.FirstName;
         });
 
