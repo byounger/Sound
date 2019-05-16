@@ -32,7 +32,7 @@
 
 	d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
             data.forEach(function(d) {
-		d.Timestamp = parseTimestamp(d.Timestamp).format("YYYY-MM-DD HH:mm:ss"));
+		d.Timestamp = parseTimestamp(d.Timestamp).format("YYYY-MM-DD HH:mm:ss");
 		d.FirstName = +d.FirstName;
 	    });
 	
