@@ -28,13 +28,13 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	d3.csv("data/sampledata.json", function(error, data) {
+	d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
             data.forEach(function(d) {
 		d.Timestamp = +d.Timestamp;
-		d.Age = d.Age;
+		d.FirstName = d.FirstName;
 	    });
 	
-	x.domain(data.map(function(d) { return d.Age; }));
+	x.domain(data.map(function(d) { return d.FirstName; }));
   	y.domain([0, d3.max(data, function(d) { return d.Timestamp; })]);
 		
 	 svg.append("g")
@@ -61,7 +61,7 @@
 	      .data(data)
 	      .enter().append("rect")
 	      .attr("class", "bar")
-	      .attr("x", function(d) { return x(d.Age); })
+	      .attr("x", function(d) { return x(d.FirstName); })
 	      .attr("width", x.rangeBand())
 	      .attr("y", function(d) { return y(d.Timestamp); })
 	      .attr("height", function(d) { return height - y(d.Timestamp); });
