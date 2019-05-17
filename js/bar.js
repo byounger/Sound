@@ -39,7 +39,7 @@
             "translate(" + margin.left + "," + margin.top + ")");
 
     // Get the data
-    d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
+    d3.csv("data/SampleData - Sheet2.csv", function(error, data) {
         data.forEach(function(d) {
             d.Timestamp = parseDate(d.Timestamp); // using moment to get proper UTC time and formatting for D3
             d.Age = +d.Age;
