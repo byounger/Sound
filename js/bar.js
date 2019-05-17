@@ -63,6 +63,11 @@
 	      .attr("dy", ".71em")
 	      .style("text-anchor", "end");
 
+	  var bars = svg.selectAll(".bar")
+            .data(data)
+            .enter()
+            .append("g")
+	    
 	  svg.selectAll("bar")
 	      .data(data)
 	      .enter().append("rect")
