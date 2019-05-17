@@ -20,8 +20,8 @@
 
     // Define the line
     var valueline = d3.svg.line()
-        .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.close); });
+        .x(function(d) { return x(d.Timestamp); })
+        .y(function(d) { return y(d.Age); });
 
     // Define 'div' for tooltips
     var div = d3.select("body")
