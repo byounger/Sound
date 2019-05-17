@@ -4,8 +4,8 @@
         height = 270 - margin.top - margin.bottom;
 
     // Parse the date / time
-    var parseDate = d3.time.format("%Y-%m-%d %X").parse; //27-May-12 16:00:00. This is used for D3JS parsing
-    var formatTime = d3.time.format("%Y-%m-%d %X");// Format tooltip date / time
+    var parseDate = d3.time.format("%Y-%m-%dT%H:%M:%S").parse; //27-May-12 16:00:00. This is used for D3JS parsing
+    var formatTime = d3.time.format("%Y-%m-%dT%H:%M:%S");// Format tooltip date / time
 
     // Set the ranges
     var x = d3.time.scale.utc().range([0, width]);
