@@ -8,7 +8,7 @@
     var formatTime = d3.time.format("%Y-%m-%d %X");// Format tooltip date / time
 
     // Set the ranges
-    var x = d3.time.scale().range([0, width]);
+    var x = d3.time.scale.utc().range([0, width]);
     var y = d3.scale.linear().range([height, 0]);
 
     // Define the axes
@@ -41,7 +41,7 @@
     // Get the data
     d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vTrNACrsMYkOo7cPMCLhGZqUKc4Dd9J663BU4i8Ml5aKlfaI2w64fFboGR_uQCAFmoUO0qNY7u2K0jj/pub?gid=2025866169&single=true&output=csv", function(error, data) {
         data.forEach(function(d) {
-            d.Timestamp = parseDate(moment.utc(d.Timestamp).format("YYYY-MM-DD HH:mm:ss")); // using moment to get proper UTC time and formatting for D3
+            d.Timestamp = parseDate(d.Timestamp); // using moment to get proper UTC time and formatting for D3
             d.Age = +d.Age;
         });
 
