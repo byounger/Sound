@@ -39,7 +39,7 @@
             "translate(" + margin.left + "," + margin.top + ")");
 
     // Get the data
-    d3.csv("data/SampleData - Sheet2.csv", function(error, data) {
+    d3.csv("data/SampleDatav2.csv", function(error, data) {
         data.forEach(function(d) {
             d.Timestamp = parseDate(d.Timestamp); // using moment to get proper UTC time and formatting for D3
             d.Age = +d.Age;
