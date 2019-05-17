@@ -71,9 +71,9 @@
                     .style("opacity", .9);
                 div .html(
                     '<a href= "'+d.link+'" target="_blank">' + //with a link
-                    formatTime(d.date) +
+                    formatTime(d.Timestamp) +
                     "</a>" +
-                    "<br/>"  + d.close)
+                    "<br/>"  + d.Age)
                     .style("left", (d3.event.pageX) + "px")
                     .style("top", (d3.event.pageY - 28) + "px");
             });
